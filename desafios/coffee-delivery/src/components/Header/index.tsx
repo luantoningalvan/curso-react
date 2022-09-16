@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 export function Header() {
   return (
-    <Container>
-      <HeaderContainer>
+    <HeaderContainer>
+      <Container>
         <Link to="/">
           <img src="/logo.svg" alt="" />
         </Link>
@@ -23,7 +23,7 @@ export function Header() {
             </CartButton>
           </Badge>
         </Right>
-      </HeaderContainer>
-    </Container>
+      </Container>
+    </HeaderContainer>
   );
 }

@@ -1,10 +1,18 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 104px;
+  background-color: rgba(250, 250, 250, 0.7);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  > div {
+    display: flex;
+    height: 104px;
+    justify-content: space-between;
+    align-items: center;
+  }
 `;
 
 export const Right = styled.div`
