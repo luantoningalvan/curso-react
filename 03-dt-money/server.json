@@ -1,0 +1,52 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 1400,
+      "createdAt": "2022-07-29T19:36:44.505Z"
+    },
+    {
+      "id": 2,
+      "description": "Xis Coração",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 25,
+      "createdAt": "2022-07-29T22:03:47.525Z"
+    },
+    {
+      "category": "Diversão",
+      "description": "Camera Prive ",
+      "price": 100,
+      "type": "outcome",
+      "createdAt": "2022-09-21T00:58:58.191Z",
+      "id": 3
+    },
+    {
+      "category": "Pecados",
+      "description": "Dízimo",
+      "price": 50,
+      "type": "outcome",
+      "createdAt": "2022-09-21T01:07:49.631Z",
+      "id": 4
+    },
+    {
+      "category": "Trabalho",
+      "description": "Salário",
+      "price": 8000,
+      "type": "income",
+      "createdAt": "2022-09-21T01:23:17.768Z",
+      "id": 5
+    },
+    {
+      "category": "Boletos",
+      "description": "Conta de Luz",
+      "price": 240,
+      "type": "outcome",
+      "createdAt": "2022-09-21T01:24:57.850Z",
+      "id": 6
+    }
+  ]
+}
